@@ -27,11 +27,32 @@
 
 .movieCard--rating{
     position: absolute;
+    color: white;
+    font-size: 12px;
     width: 150px;
     background-color: #FF9F45;
-    padding: 5px 55px;
+    padding: 5px 5px 5px 40px;
     top: 10px;
     left: -40px;
-    transform: rotate(-45deg);
+    transform: rotate(-50deg);
+    clip-path: polygon(23% 0%, 63% 0%, 78% 100%, 0% 105%);
     
+}
+
+.movieCard--title{
+    color: #F44444;
+    margin-bottom: 15px;
+}
+
+.movieCard--tit{
+    display: inline;
+    margin-right: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.movieCard--starring{
+    font-size: 14px;
+    color: #f14f4f;
+    margin-top: 10px;
 }
